@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <h1 id="title">BLACKJACK</h1>
+
+  <div class="container dealer">
+    <div class="dealer-card-slot card-slot">
+      <div class="card" id="dealer-card">
+      </div>
+    </div>
+    <div class="dealer-score score">
+      <h2>Dealer Score</h2>
+      <p id="dealerHandValue"></p>
+    </div>
+  </div>
+
+  <div id="result" class="container">
+  </div>
+
+  <div class="container player">
+    <div class="player-card-slot card-slot">
+      <div class="card" id="player-card">
+      </div>
+    </div>
+    <div class="player-score score">
+      <h2>Your Score</h2>
+      <p id="playerHandValue"></p>
+    </div>
+  </div>
+
+  <div class="container btn audio">
+      <button id="deal-button">Deal</button>
+      <button id="hit-button">Hit</button>
+      <button id="stand-button">Stand</button>
+  </div>
+
+  <audio id="shuffle">
+    <source src="audio/shuffle.wav" type="audio/mpeg">
+  </audio>
+  <audio id="hit">
+    <source src="audio/hit.wav" type="audio/mpeg">
+  </audio>
+  <audio id="win">
+    <source src="audio/win.wav" type="audio/mpeg">
+  </audio>
+  <audio id="lose">
+    <source src="audio/lose.wav" type="audio/mpeg">
+  </audio>
+  <audio id="neutral">
+    <source src="audio/neut.wav" type="audio/mpeg">
+  </audio>
+
+</body>
+</html>

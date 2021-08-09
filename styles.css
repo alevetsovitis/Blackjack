@@ -1,0 +1,25 @@
+* {
+	margin: 0px;
+  padding: 0px;
+}
+
+#UserMessage {
+  /* margin-left: 20%; */
+  /* width: relative; */
+  margin: 50px 10px;/*space between messages*/
+  border-radius: 15px;/*creates rounded border */
+  background: rgb(0, 120, 254);
+  color: #fff;
+  padding: 5px 10px;/*top and bootom 5px*/
+  text-align: right;
+  font-family: arial;
+	max-width: 60%;
+	word-wrap: break-word;
+	float: right;
+	clear: both;
+}
+
+#User-message {
+	display: fixed;
+	margin-top: 50px;
+}
